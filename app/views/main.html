@@ -1,0 +1,17 @@
+<div id="header-wrap" scroll-header>
+
+  <div id="header" class="clear"  >
+    <nav>
+      <form>
+        <textarea placeholder="What happened today?" name="limitedtextarea" inf-textarea></textarea>
+        <div class="counter">
+          <input readonly type="text" size="3" ng-model="mp.idea.cnt">
+        </div>
+      </form>
+    </nav>
+  </div>
+</div>
+
+<div class="content">
+  <h2 ng-repeat="message in mp.messages track by $index">{{message}}</h2>
+</div>

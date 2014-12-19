@@ -1,0 +1,101 @@
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    	font-family: 'Archivo Black', sans-serif;
+}
+.content{
+	padding-top:300px;
+
+}
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+:focus{
+	outline-style: auto;
+	outline-width:0px;
+	outline-color: transparent;
+}
+.white{
+	background-color: black;
+	color: white;
+}
+
+#header {
+    width: 100%;
+  
+}
+
+#header-wrap {
+    width: 100%;
+    background-color: transparent;
+}
+h2 {
+	word-wrap:break-word;
+	margin-top:50px;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 80px;
+	line-height: 80px;
+	text-transform: uppercase;
+	display: block;
+	font-weight: normal;	
+}
+
+form{
+	margin:0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.9);
+
+}
+
+textarea {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 20px;
+
+	width: 100%;
+	line-height: 24px;
+	-webkit-appearance: textarea;
+	border:none;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	-webkit-flex-direction: column;
+	resize: none;
+	color: white;
+	cursor: auto;
+	background: transparent;
+	padding: 15px;
+	text-transform: uppercase;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+input{
+	font-family: 'Archivo Black', sans-serif;
+	background-color: transparent;
+	width: 100%;
+	color: white;
+	font-size: 18px;
+	text-align:right;
+	border: none;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	cursor: auto;
+}
+.counter{
+	margin-right: 15px;
+padding-bottom: 15px;
+}
+
